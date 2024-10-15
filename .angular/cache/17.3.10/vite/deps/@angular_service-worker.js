@@ -1,6 +1,6 @@
 import {
   isPlatformBrowser
-} from "./chunk-RQNBMRRM.js";
+} from "./chunk-X7RFBUQB.js";
 import {
   APP_INITIALIZER,
   ApplicationRef,

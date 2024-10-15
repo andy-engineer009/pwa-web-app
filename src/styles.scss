@@ -1,1 +1,91 @@
-/* You can add global styles to this file, and also import other style files */
+/* ========================================================== */
+/* ======================= Variables ========================== */
+/* ========================================================== */
+
+:root {
+    --primary-color: #3498db;      /* Blue */
+    --secondary-color: #2ecc71;    /* Green */
+    --font-size: 16px;              /* Base font size */
+    --spacing: 8px;                 /* Base spacing */
+    --border-radius: 4px;           /* Rounded corners */
+    --shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+}
+
+/* ========================================================== */
+/* ======================= Reset ========================== */
+/* ========================================================== */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+html {
+    line-height: 1.15; /* Improve readability */
+    -webkit-text-size-adjust: 100%; /* Prevent text size adjustment after orientation changes in iOS */
+}
+
+body {
+    margin: 0; /* Remove default margin */
+    font-family: sans-serif; /* Set a default font */
+    font-size: 16px; /* Set a base font size */
+    color: #333; /* Set a default text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0; /* Remove default margin */
+    font-weight: normal; /* Remove bold weight */
+}
+
+p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Lists */
+ul, ol {
+    list-style: none; /* Remove default list styling */
+}
+
+/* Tables */
+table {
+    border-collapse: collapse; /* Collapse table borders */
+    border-spacing: 0; /* Remove default spacing */
+}
+
+/* Images */
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing */
+}
+
+/* Links */
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+
+/* Buttons */
+button {
+    background: none; /* Remove default button background */
+    border: none; /* Remove default border */
+    padding: 0; /* Remove padding */
+    font: inherit; /* Inherit font styles */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Form elements */
+input, textarea, select, button {
+    font-family: inherit; /* Inherit font styles */
+    font-size: inherit; /* Inherit font size */
+}
+
+/* Responsive Container */
+.container {
+    max-width: 1200px; /* Set a max width for containers */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add padding */
+}
