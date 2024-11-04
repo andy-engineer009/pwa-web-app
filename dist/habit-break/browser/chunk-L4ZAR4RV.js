@@ -1,0 +1,1 @@
+import{H as i,M as r,r as t,v as e}from"./chunk-SDMMOTMS.js";var n=[{path:"",loadChildren:()=>import("./chunk-RMZV3E2R.js").then(o=>o.HomeModule)}],a=(()=>{class o{static{this.\u0275fac=function(m){return new(m||o)}}static{this.\u0275mod=e({type:o})}static{this.\u0275inj=t({imports:[i,r.forChild(n)]})}}return o})();export{a as MainModule};

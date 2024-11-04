@@ -83,9 +83,34 @@ input, textarea, select, button {
     font-size: inherit; /* Inherit font size */
 }
 
+
 /* Responsive Container */
 .container {
-    max-width: 1200px; /* Set a max width for containers */
+    max-width: 100%; /* Set a max width for containers */
     margin: 0 auto; /* Center the container */
-    padding: 0 20px; /* Add padding */
+    padding: 0 10px; /* Add padding */
+}
+
+
+/* Larger screens - add more structure */
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    header {
+        padding: 2rem;
+    }
+
+    .container {
+        max-width: 1000px;
+    }
 }
