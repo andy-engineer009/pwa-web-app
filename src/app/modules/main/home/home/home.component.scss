@@ -17,8 +17,7 @@
     h1 {
         font-size: 25px;
         color: #000;
-        font-weight: 600;
-    
+        font-weight: 700;
     }
 }
 
@@ -37,12 +36,34 @@ gap: 0 4%;
 width: 100%;
 height: 200px;
 border-radius: 12px;
-display: flex;
-align-items: center;
-justify-content: center;
 font-size: 24px;
-
+position: relative;
+padding: 20px 10px 10px;
+&.overeating {
+    padding-top: 10px;
+ h2 {
+    position: relative;
+    z-index: 1;
+ }
+ img {
+    max-width: 120px;
+ }
 }
+img {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+max-width: 180px;
+margin: 0px auto;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+}
+
 .item:not(:last-child) {
     margin-bottom: 8%;
 }
@@ -50,3 +71,4 @@ font-size: 24px;
 .bunny {
     margin: 40px auto 0px;
 }
+

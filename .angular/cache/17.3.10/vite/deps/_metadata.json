@@ -1,49 +1,58 @@
 {
-  "hash": "c02b389b",
-  "configHash": "769dc615",
-  "lockfileHash": "6d479e19",
-  "browserHash": "0a01d9da",
+  "hash": "3da82293",
+  "configHash": "4808b5f7",
+  "lockfileHash": "8ca1855a",
+  "browserHash": "4ed9a213",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "3bf863ca",
+      "fileHash": "d3d613bb",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "602f3204",
+      "fileHash": "296479c3",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "cf68114a",
+      "fileHash": "98e6509a",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "21188fa1",
+      "fileHash": "4befa4d8",
       "needsInterop": false
     },
     "@angular/service-worker": {
       "src": "../../../../../node_modules/@angular/service-worker/fesm2022/service-worker.mjs",
       "file": "@angular_service-worker.js",
-      "fileHash": "e4eab56b",
+      "fileHash": "71c8795c",
+      "needsInterop": false
+    },
+    "canvas-confetti": {
+      "src": "../../../../../node_modules/canvas-confetti/dist/confetti.module.mjs",
+      "file": "canvas-confetti.js",
+      "fileHash": "0c615929",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-VADVYHGN": {
-      "file": "chunk-VADVYHGN.js"
+    "chunk-LTWILC4X": {
+      "file": "chunk-LTWILC4X.js"
     },
-    "chunk-X7RFBUQB": {
-      "file": "chunk-X7RFBUQB.js"
+    "chunk-7JESRIYI": {
+      "file": "chunk-7JESRIYI.js"
     },
-    "chunk-SFQGOEW2": {
-      "file": "chunk-SFQGOEW2.js"
+    "chunk-J5WKEG7P": {
+      "file": "chunk-J5WKEG7P.js"
+    },
+    "chunk-J4B6MK7R": {
+      "file": "chunk-J4B6MK7R.js"
     }
   }
 }

@@ -1,6 +1,6 @@
 import {
   isPlatformBrowser
-} from "./chunk-X7RFBUQB.js";
+} from "./chunk-7JESRIYI.js";
 import {
   APP_INITIALIZER,
   ApplicationRef,
@@ -12,7 +12,6 @@ import {
   NgZone,
   PLATFORM_ID,
   Subject,
-  __spreadValues,
   concat,
   defer,
   delay,
@@ -32,7 +31,10 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵinject
-} from "./chunk-SFQGOEW2.js";
+} from "./chunk-J5WKEG7P.js";
+import {
+  __spreadValues
+} from "./chunk-J4B6MK7R.js";
 
 // node_modules/@angular/service-worker/fesm2022/service-worker.mjs
 var ERR_SW_NOT_SUPPORTED = "Service workers are disabled or not supported by this browser";
