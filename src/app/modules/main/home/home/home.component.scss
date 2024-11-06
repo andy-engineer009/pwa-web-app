@@ -63,6 +63,7 @@ margin: 0px auto;
 transform: translateY(-50%);
 opacity: 0.2;
 filter: blur(3px);
+display: none;
 }
 h2 {
     font-size: 20px;
@@ -100,11 +101,12 @@ h2 {
 .item-card {
     height: 98px;
     border-radius: 12px;
-    padding: 10px 20px;
+    padding: 10px 0px 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 11px;
+    overflow: hidden;
     h2  {
         color: #000;
         font-size: 18px;
@@ -114,7 +116,7 @@ h2 {
     }
     .bx {
         height: 98px;
-        width: 138px;
+        width: 122px;
         position: relative;
         text-align: center;
     }
