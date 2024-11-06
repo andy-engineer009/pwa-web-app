@@ -39,6 +39,9 @@ border-radius: 12px;
 font-size: 24px;
 position: relative;
 padding: 20px 10px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
 &.overeating {
     padding-top: 10px;
  h2 {
@@ -51,17 +54,23 @@ padding: 20px 10px 10px;
 }
 img {
 position: absolute;
+top: 50%;
 bottom: 0;
 left: 0;
 right: 0;
 max-width: 180px;
 margin: 0px auto;
+transform: translateY(-50%);
+opacity: 0.2;
+filter: blur(3px);
 }
 h2 {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    z-index: 1;
+    line-height: 1.5;
 }
 }
 
@@ -90,23 +99,32 @@ h2 {
 
 .item-card {
     height: 98px;
-    position: relative;
     border-radius: 12px;
     padding: 10px 20px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 11px;
     h2  {
         color: #000;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 700;
         text-transform: uppercase;
         z-index: 1;
     }
+    .bx {
+        height: 98px;
+        width: 138px;
+        position: relative;
+        text-align: center;
+    }
     img {
         position: absolute;
-        right: 10px;
-        bottom: 0;
         max-width: 126px;
+        right: 0;
+        left: 0;
+        margin: 0px auto;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
