@@ -1,0 +1,25 @@
+.swipe-container {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .swipe-item {
+    min-width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .swipe-item.active {
+    display: block;
+  }
+  
+  .swipe-item:not(.active) {
+    display: none;
+  }
+
+  .swipe-item {
+    min-width: 100%;
+    transition: transform 0.3s ease;
+    // transform: translateX(-{{ currentIndex * 100 }}%);
+  }
+  

@@ -1,0 +1,8 @@
+<h1>hl</h1>
+<div class="swipe-container" (touchstart)="onTouchStart($event)" (touchend)="onTouchEnd($event)">
+    <div class="swipe-item" *ngFor="let section of sections; let i = index" [ngClass]="{'active': i === currentIndex}">
+      <h2>Section {{ i + 1 }}</h2>
+      <p>This is content for Section {{ i + 1 }}</p>
+    </div>
+  </div>
+  
