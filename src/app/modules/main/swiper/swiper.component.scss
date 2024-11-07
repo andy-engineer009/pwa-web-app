@@ -7,6 +7,45 @@
   .swipe-item {
     min-width: 100%;
     transition: transform 0.3s ease;
+    height: 100vh;
+    &--row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        position: relative;
+        h2 {
+            font-size: 28px;
+            font-weight: 700;
+            padding-bottom: 100px;
+        }
+        .img-container {
+            position: absolute;
+            bottom: 0;
+            height: 321px;
+            img {
+                width: 100%;
+                max-width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    &:nth-child(1) {
+        background-color: #2EBC4B;
+    }
+    &:nth-child(2) {
+        background-color: #BF9AFD;
+    }
+    &:nth-child(3) {
+        background-color: #64CBF6;
+    }
+    &:nth-child(4) {
+        background-color: #F68F64;
+    }
+    &:nth-child(5) {
+        background-color: #CBF664;
+    }
+    
   }
   
   .swipe-item.active {

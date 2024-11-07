@@ -6,7 +6,33 @@ import { Component } from '@angular/core';
   styleUrl: './swiper.component.scss'
 })
 export class SwiperComponent {
-  sections = [1, 2, 3, 4];  // Just an example; could be dynamic
+  sections = [
+  {
+    name: "Swipe",
+    img: null,
+    color: "#FBE84A"
+  },
+  {
+    name: "Walking",
+    img: "../../../../../assets/img/walk.png",
+    color: "#BF9AFD"
+  },
+  {
+    name: "Meditation",
+    img: "../../../../../assets/img/meditation.png",
+    color: "#64CBF6"
+  },
+  {
+    name: "Stop Overeating",
+    img: "../../../../../assets/img/overeating.png",
+    color: "#F68F64"
+  },
+  {
+    name: "sleep On Time",
+    img: "../../../../../assets/img/sleep.png",
+    color: "#CBF664"
+  }
+  ];  // Just an example; could be dynamic
   currentIndex = 0;
   touchStartX = 0;
   touchEndX = 0;
@@ -43,3 +69,5 @@ export class SwiperComponent {
     }
   }
 }
+
+// bro i make a functionlity for my angular html based website i have a four div so i create a slider type not acutlly slider if user swipe right side then next div is displayed if left the display then previous screen display
