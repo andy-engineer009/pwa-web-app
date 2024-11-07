@@ -62,3 +62,29 @@
     // transform: translateX(-{{ currentIndex * 100 }}%);
   }
   
+
+//   txt animation
+.swipe-text{
+    white-space: nowrap; /* Prevent text from breaking into multiple lines */
+    animation: swipeInFromLeft 5s ease-in-out infinite;
+}
+
+@keyframes swipeInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0.2;
+    }
+    30% {
+      transform: translateX(0); /* Position at the center */
+      opacity: 1;
+    }
+    70% {
+      transform: translateX(0); /* Stay in the center */
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(100%); /* End off-screen to the right */
+      opacity: 0.1;
+
+    }
+  }

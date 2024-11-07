@@ -4,8 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { SwiperComponent } from './swiper/swiper.component';
 
 const routes: Routes = [
-{ path: 'homee' , loadChildren : () =>  import('./home/home.module').then(m => m.HomeModule)},
-{ path: 'home' , component: SwiperComponent}
+{ path: '' , loadChildren : () =>  import('./home/home.module').then(m => m.HomeModule)},
+{ path: 'all-rules' , component: SwiperComponent}
 
 ]
 

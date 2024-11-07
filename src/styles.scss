@@ -76,6 +76,13 @@ button {
     font: inherit; /* Inherit font styles */
     cursor: pointer; /* Change cursor to pointer */
 }
+.btn {
+    width: auto;
+    padding: 10px;
+    background: #000;
+    color: #ffff;
+    border-radius: 6px;
+}
 
 /* Form elements */
 input, textarea, select, button {

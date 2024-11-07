@@ -1,7 +1,7 @@
 <div class="swipe-container" (touchstart)="onTouchStart($event)" (touchend)="onTouchEnd($event)">
     <div class="swipe-item" *ngFor="let section of sections; let i = index" [ngClass]="{'active': i === currentIndex}">
         <div class="swipe-item--row">
-            <h2> {{section.name}}</h2>
+            <h2 [ngClass]="{'swipe-text' : i == 0}"> {{section.name}}</h2>
             <div *ngIf="section.img" class="img-container">
               <img [src]="section.img" alt="">
             </div>
