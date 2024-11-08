@@ -30,7 +30,8 @@ html {
 
 body {
     margin: 0; /* Remove default margin */
-    font-family: "Montserrat", sans-serif;    /* Set a default font */
+    // font-family: "Montserrat", sans-serif;    /* Set a default font */
+    font-family: "Lato", sans-serif;
     font-size: 16px; /* Set a base font size */
     color: #333; /* Set a default text color */
 }
@@ -96,6 +97,13 @@ input, textarea, select, button {
     max-width: 100%; /* Set a max width for containers */
     margin: 0 auto; /* Center the container */
     padding: 0 20px; /* Add padding */
+}
+
+.h-tag {
+    font-family: "Roboto", sans-serif;
+}
+.nh-tag {
+  font-family: "Lato", sans-serif;
 }
 
 
