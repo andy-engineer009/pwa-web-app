@@ -168,7 +168,7 @@ button {
     flex-wrap: wrap;
     align-content: center;
     border-radius: 0px 0px 18px 18px;
-    padding: 19px 10px 10px;
+    padding: 8px 10px 20px;
     margin-bottom: 10px;
 
     img {
@@ -209,10 +209,11 @@ button {
     h2 {
         text-align: center;
         padding: 10px;
-        font-size: 22px;
-        line-height: 34px;
+        font-size: 31px;
+        line-height: 41px;
         text-transform: capitalize;
         font-weight: 700;
+        color: #000; 
     }
 
     p {
@@ -225,15 +226,28 @@ button {
     }
 
     button {
+        // margin-top: 20px;
+        // width: 100%;
+        // padding: 20px;
+        // text-transform: uppercase;
+        // background-color: #e0f2f1;
+        // // background-color: #7AC94C;
+        // color: var(--primary-text);
+        // // color: #000;
+        // font-weight: 800;
+
         margin-top: 20px;
-        width: 100%;
-        padding: 20px;
-        text-transform: uppercase;
-        background-color: #e0f2f1;
-        // background-color: #7AC94C;
-        color: var(--primary-text);
-        // color: #000;
-        font-weight: 800;
+    width: 65%;
+    padding: 14px 20px;
+    text-transform: capitalize;
+    background-color: #df0000;
+    /* color: var(--primary-text); */
+    font-weight: 800;
+    font-size: 18px;
+    background: linear-gradient(90deg, #FFA726, #FF7043);
+    background-color: #4CAF50;
+    /* background: linear-gradient(90deg, #FFEB3B, #FF9800); */
+    /* background: linear-gradient(90deg, #7B1FA2, #2196F3);*/
     }
 }
 
