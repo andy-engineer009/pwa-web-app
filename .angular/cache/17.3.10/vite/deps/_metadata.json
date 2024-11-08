@@ -1,43 +1,43 @@
 {
-  "hash": "ebf17f1f",
-  "configHash": "e0b86d5c",
-  "lockfileHash": "99efb377",
-  "browserHash": "ad75c5a9",
+  "hash": "3da82293",
+  "configHash": "4808b5f7",
+  "lockfileHash": "8ca1855a",
+  "browserHash": "4ed9a213",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "ff7d02d0",
+      "fileHash": "f3ea703c",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "9aa90dd8",
+      "fileHash": "f6ac9e10",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "e0036c77",
+      "fileHash": "1fd328a3",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "552919f0",
+      "fileHash": "0d27e3ed",
       "needsInterop": false
     },
     "@angular/service-worker": {
       "src": "../../../../../node_modules/@angular/service-worker/fesm2022/service-worker.mjs",
       "file": "@angular_service-worker.js",
-      "fileHash": "1c0a480c",
+      "fileHash": "0233246f",
       "needsInterop": false
     },
     "canvas-confetti": {
       "src": "../../../../../node_modules/canvas-confetti/dist/confetti.module.mjs",
       "file": "canvas-confetti.js",
-      "fileHash": "236987fc",
+      "fileHash": "11de457a",
       "needsInterop": false
     }
   },
