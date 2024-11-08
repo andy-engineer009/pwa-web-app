@@ -2,15 +2,22 @@
 /* ======================= Variables ========================== */
 /* ========================================================== */
 
-:root {
-    --primary-color: #3498db;      /* Blue */
-    --secondary-color: #2ecc71;    /* Green */
-    --font-size: 16px;              /* Base font size */
-    --spacing: 8px;                 /* Base spacing */
-    --border-radius: 4px;           /* Rounded corners */
-    --shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
-}
+// :root {
+//     --primary-color: #3498db;      /* Blue */
+//     --secondary-color: #2ecc71;    /* Green */
+//     --font-size: 16px;              /* Base font size */
+//     --spacing: 8px;                 /* Base spacing */
+//     --border-radius: 4px;           /* Rounded corners */
+//     --shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+// }
 
+:root {
+
+    --primary-bg: #F0F7FF;
+    --off-white-bg: #f9f9f9;
+    --primary-text : #333333;
+    --sec: #6B7280
+}
 /* ========================================================== */
 /* ======================= Reset ========================== */
 /* ========================================================== */
@@ -107,6 +114,71 @@ input, textarea, select, button {
 }
 
 
+// =================================
+// =================================
+// hero section
+
+.hero-section {
+    background-color: var(--primary-bg);
+    // height: 159px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 0px 0px 18px 18px;
+    padding: 20px;
+margin-bottom: 10px;
+
+    img {
+        max-width: 150px;
+    }
+    img {
+        width: 100%;
+    }
+    h1 {
+        font-size: 20px;
+        color: var(--primary-text);
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 52px;
+        span {
+            background-color: var(--primary-text);
+            color: #fff;
+            padding: 6px 10px;
+            font-size: 38px;
+        };
+    }
+    h2 {
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+        line-height: 34px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    p {
+color: var(----sec);
+font-size: 18px;
+line-height: 1.5;
+text-align: center;
+font-weight: 500;
+margin-bottom: 10px;
+    }
+
+    button {
+        margin-top: 20px;
+        width: 100%;
+        padding: 20px;
+        text-transform: uppercase;
+        background-color: #e0f2f1;
+        color: var(--primary-text);
+        font-weight: 800;
+    }
+}
+
+
 /* Larger screens - add more structure */
 @media (min-width: 768px) {
     nav ul {
@@ -128,4 +200,8 @@ input, textarea, select, button {
     .container {
         max-width: 1000px;
     }
+}
+
+.d-none {
+    display: none;
 }
