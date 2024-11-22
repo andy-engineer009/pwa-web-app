@@ -44,7 +44,7 @@
       z-index: 1;
   }
   .box img {
-      max-width: 250px;
+      max-width: 190px;
   }
   
   /* Left Box Animation */
@@ -98,7 +98,7 @@
       transform: scale(0.7);
     }
     to {
-      left: calc(50% - 250px); /* Adjusted for the gap */
+      left: calc(50% - 190px); /* Adjusted for the gap */
       opacity: 1;
       transform: scale(1);
     }
